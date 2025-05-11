@@ -1,5 +1,8 @@
 {
     "code-runner.saveFileBeforeRun": true,
     "code-runner.clearPreviousOutput": true,
-    "code-runner.showExecutionMessage": false
+    "code-runner.showExecutionMessage": true,
+    "code-runner.executorMap": {
+        "typescript": "ts-node --swc"
+    }
 }
